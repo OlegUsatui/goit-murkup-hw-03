@@ -169,10 +169,10 @@ padding-bottom: 95px;
     margin-left: 30px;
 }
 
-
+.function{
+    padding-bottom: 95px;
+}
 .function-title{
-    margin-top: 95px;
-
     text-align: center;
 
     color: var(--main-text);
@@ -196,7 +196,6 @@ display: block;
 }
 
 .team{
-    padding-top: 95px;
     padding-bottom: 95px;
 
     background-color: var(--second-bg);
@@ -334,7 +333,7 @@ margin-bottom: 0;
 
 .cards-conteiner{
     padding-top: 95px;
-    padding-bottom: 95px;
+    padding-bottom: 65px;
 }
 
 .cards-list{
@@ -343,7 +342,9 @@ margin-bottom: 0;
 }
 
  .cards-item{
-padding-bottom: 20px;
+    margin-bottom: 30px;
+
+    border:1px solid #EEEEEE;
 }
 
 .cards-item:not(:nth-child(3n + 1)){
@@ -352,6 +353,7 @@ margin-left: 30px;
 
 .cards-item img {
     display: block;
+
 }
 
 .cards-title{
@@ -374,5 +376,5 @@ margin-left: 30px;
 } 
 
 .cards-description{
-    margin: 20px 25px;
+    padding: 20px 25px;
 }
